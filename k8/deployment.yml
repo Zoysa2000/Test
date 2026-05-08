@@ -16,7 +16,7 @@ spec:
         - name: dockerhub-secret
       containers:
         - name: test-backend
-          image: thilina123/test-backend:latest
+          image: thilina123/test-backend:b0436c5
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
