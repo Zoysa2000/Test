@@ -33,3 +33,4 @@ C:\Users\Thilina\source\repos\TestBackend\TestBackend\obj\Debug\net8.0\refint\Te
 C:\Users\Thilina\source\repos\TestBackend\TestBackend\obj\Debug\net8.0\TestBackend.pdb
 C:\Users\Thilina\source\repos\TestBackend\TestBackend\obj\Debug\net8.0\TestBackend.genruntimeconfig.cache
 C:\Users\Thilina\source\repos\TestBackend\TestBackend\obj\Debug\net8.0\ref\TestBackend.dll
+C:\Users\Thilina\source\repos\TestBackend\TestBackend\obj\Debug\net8.0\TestBackend.sourcelink.json
