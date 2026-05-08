@@ -30,7 +30,7 @@ jobs:
 
       - name: Update Kubernetes manifest image
         run: |
-          sed -i "s|image: .*test-backend:.*|image: ${{ secrets.DOCKER_USERNAME }}/test-backend:${{ env.IMAGE_TAG }}|g" k8/deployment.yaml
+          sed -i "s|image: .*test-backend:.*|image: ${{ secrets.DOCKER_USERNAME }}/test-backend:${{ env.IMAGE_TAG }}|g" k8/deployment.yml
 
       - name: Commit and push manifest change
         run: |
