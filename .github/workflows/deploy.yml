@@ -36,6 +36,6 @@ jobs:
         run: |
           git config user.name "thilina-dev"
           git config user.email "thilinadezpysa2000@gmail.com"
-          git add k8/deployment.yaml
+          git add k8/deployment.yml
           git commit -m "Update test-backend image to ${{ env.IMAGE_TAG }}" || echo "No changes to commit"
           git push
